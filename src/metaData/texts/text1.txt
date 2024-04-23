@@ -1,0 +1,8 @@
+contenido:Bienvenido a Mi Página Web;
+color:#333333
+font_size:16px
+text_align:center
+font_style:italic
+margin:20px
+padding:10px
+background:#F5F5F5
