@@ -1,4 +1,4 @@
-contenido:Bienvenido a Mi Página Web;
+contenido:Bienvenido a Mi Página Web
 color:#333333
 font_size:16px
 text_align:center

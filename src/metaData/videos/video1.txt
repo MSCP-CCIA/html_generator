@@ -1,0 +1,7 @@
+contenido:www.youtube.com/watch?v=BT6Aw6Q75Yg
+width:500px
+height:300px
+border:2px solid black:#f1f1f1
+background_color:#f1f1f1
+padding:10px
+opacity:0.5

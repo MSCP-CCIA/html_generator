@@ -1,5 +1,5 @@
-contenido:C:\Users\cracm\IdeaProjects\html_generator\src\metaData\images\imagePaht\imagenes-para-paginas-web.png;
-width:300px
+contenido:\Users\cracm\IdeaProjects\html_generator\src\metaData\images\imagePaht\imagenes-para-paginas-web.png
+width:100px
 height:200px
 margin:10px
 padding:20px

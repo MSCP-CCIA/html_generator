@@ -1,6 +1,6 @@
 package structure;
 
-public class image {
+public class Image {
     public String contenido;
     public String width;
     public String height;
@@ -9,7 +9,7 @@ public class image {
     public String border;
     public String display;
 
-    public image(String contenido, String width, String height, String margin, String padding, String border, String display) {
+    public Image(String contenido, String width, String height, String margin, String padding, String border, String display) {
         this.contenido = contenido;
         this.width = width;
         this.height = height;
@@ -73,5 +73,18 @@ public class image {
 
     public void setDisplay(String display) {
         this.display = display;
+    }
+
+    @Override
+    public String toString() {
+        return "Image{" +
+                "contenido='" + contenido + '\'' +
+                ", width='" + width + '\'' +
+                ", height='" + height + '\'' +
+                ", margin='" + margin + '\'' +
+                ", padding='" + padding + '\'' +
+                ", border='" + border + '\'' +
+                ", display='" + display + '\'' +
+                '}';
     }
 }
