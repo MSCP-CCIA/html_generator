@@ -35,5 +35,6 @@ public class Main {
         Grammar grammar = new Grammar();
 
         System.out.println(grammar.getReglasGramaticales());
+        System.out.println(grammar.stringGenerator("P"));
     }
 }
