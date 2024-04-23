@@ -1,9 +1,11 @@
+import grammar.Grammar;
 import structure.Image;
 import structure.Text;
 import structure.Title;
 import structure.Video;
 
 import java.io.IOException;
+import java.util.Arrays;
 
 import static fileConverter.fileConverter.*;
 
@@ -30,5 +32,8 @@ public class Main {
         } catch (IOException e) {
             System.err.println("Error al leer el archivo: " + e.getMessage());
         }
+        Grammar grammar = new Grammar();
+
+        System.out.println(grammar.getReglasGramaticales());
     }
 }
